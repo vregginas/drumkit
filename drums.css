@@ -1,0 +1,84 @@
+body{
+    
+    background-color: #6D8A96;
+
+}
+header{
+    width: 100%;
+    background-color: #0A0F0D;
+    margin:0%;
+    padding:0%;
+    color:#F4FAFF;
+    position: absolute;
+    left: 0;
+    right:0;
+    top:0;
+    font-family: 'Ephesis', cursive;
+    font-size:200%;
+    letter-spacing: 2px;
+}
+#line{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: #F4FAFF;
+    font-size:250%;
+    letter-spacing: 2px;
+    text-shadow:2px 2px #0A0F0D;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 30vh;
+} 
+button{
+    margin:2vw;
+    width:8em;   
+    height: 8em;
+    background-color: #0A0F0D;
+    border-radius: 5px;
+    
+} 
+button h1{
+    height:20%;    
+    font-family: 'Architects Daughter', cursive;
+    color:#F4FAFF;
+    position:relative;
+    text-align: center; 
+      
+
+}  
+button h3{
+    font-family: 'Architects Daughter', cursive;
+    color:#F4FAFF;
+    letter-spacing: 2px;
+
+}
+button:hover{
+    background-color:#F4FAFF ;  
+    cursor: pointer;  
+}
+button:hover>h1{
+    color: #0A0F0D;
+}
+button:hover>h3{
+    color: #0A0F0D;
+}
+
+
+
+
+.animate{
+    background-color: #6D8A96;
+}
+@media (max-width: 800px) {
+    .container {     
+      display:block;
+      text-align: center;
+      margin-top:10vh;
+    }
+    #line{
+        margin-top:10%;
+    }
+    
+}

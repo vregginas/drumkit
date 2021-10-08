@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DrumKit</title>
+        <meta charset="utf-8">
+        <meta name="keywords" content="drums,drumkit,vasilis regginas,project">
+        <meta name="description" content="A drumkit in vanilla Jss">
+        <meta name="author" content="Vasilis Regginas">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="drums.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ephesis&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="logo">Vregginas</header>
+        <main>
+            <h1 id="line">Let's get the party going!!!!</h1>
+            <div class="container">
+                <button class="button" data-key="65" id="1">
+                    <h1>A</h1>
+                    <h3>Clap</h3>
+                </button>
+                <button class="button" data-key="83" id="2">
+                    <h1>S</h1>
+                    <h3>Hihat</h3>
+                </button>
+                <button class="button" data-key="68" id="3">
+                    <h1>D</h1>
+                    <h3>Kick</h3>
+                </button>
+                <button class="button" data-key="70" id="4">
+                    <h1>F</h1>
+                    <h3>Openhat</h3>
+                </button>
+                <button class="button" data-key="71" id="5">
+                    <h1>G</h1>
+                    <h3>Boom</h3>
+                </button>
+                <button class="button" data-key="72" id="6">
+                    <h1>H</h1>
+                    <h3>Ride</h3>
+                </button>
+                <button class="button" data-key="74" id="7">
+                    <h1>J</h1>
+                    <h3>Snare</h3>
+                </button>
+                <button class="button" data-key="75" id="8">
+                    <h1>K</h1>
+                    <h3>Tom</h3>
+                </button>
+                <button class="button" data-key="76" id="9">
+                    <h1>L</h1>
+                    <h3>Tink</h3>
+                </button>
+            </div>    
+                <audio data-key="71" src="sounds/boom.wav"></audio>
+                <audio data-key="65" src="sounds/clap.wav"></audio>
+                <audio data-key="83" src="sounds/hihat.wav"></audio>
+                <audio data-key="68" src="sounds/kick.wav"></audio>
+                <audio data-key="70" src="sounds/openhat.wav"></audio>
+                <audio data-key="72" src="sounds/ride.wav"></audio>
+                <audio data-key="74" src="sounds/snare.wav"></audio>
+                <audio data-key="76" src="sounds/tink.wav"></audio>
+                <audio data-key="75" src="sounds/tom.wav"></audio>
+                <script src="drums.js" ></script>
+            
+        </main>
+    </body>
+</html>
